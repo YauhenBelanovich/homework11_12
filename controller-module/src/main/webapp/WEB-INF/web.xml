@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+   http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+
+
+  <welcome-file-list>
+    <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <listener>
+    <listener-class>com.gmail.yauhen2012.controller.listener.AppDestroyListener</listener-class>
+  </listener>
+
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <include-prelude>/WEB-INF/taglibs.jsp</include-prelude>
+    </jsp-property-group>
+  </jsp-config>
+
+  <servlet>
+    <servlet-name>UserRegistrationServlet</servlet-name>
+    <servlet-class>com.gmail.yauhen2012.controller.UserRegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserRegistrationServlet</servlet-name>
+    <url-pattern>/registration</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.gmail.yauhen2012.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <filter>
+    <filter-name>LoginFilter</filter-name>
+    <filter-class>com.gmail.yauhen2012.controller.filter.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoginFilter</filter-name>
+    <url-pattern>/adminPage</url-pattern>
+  </filter-mapping>
+
+  <servlet>
+    <servlet-name>UserPageServlet</servlet-name>
+    <servlet-class>com.gmail.yauhen2012.controller.UserPageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserPageServlet</servlet-name>
+    <url-pattern>/userPage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AdminPageServlet</servlet-name>
+    <servlet-class>com.gmail.yauhen2012.controller.AdminPageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminPageServlet</servlet-name>
+    <url-pattern>/adminPage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.gmail.yauhen2012.controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>
+

@@ -1,0 +1,11 @@
+com\gmail\yauhen2012\controller\LogoutServlet.class
+com\gmail\yauhen2012\controller\UserPageServlet.class
+com\gmail\yauhen2012\controller\validator\impl\ValidationImpl.class
+com\gmail\yauhen2012\controller\validator\Validation.class
+com\gmail\yauhen2012\controller\constant\ServletConstant.class
+com\gmail\yauhen2012\controller\filter\LoginFilter.class
+com\gmail\yauhen2012\controller\LoginServlet.class
+com\gmail\yauhen2012\controller\UserRegistrationServlet.class
+com\gmail\yauhen2012\controller\listener\AppDestroyListener.class
+com\gmail\yauhen2012\controller\validator\validationConstant\ValidationConstant.class
+com\gmail\yauhen2012\controller\AdminPageServlet.class

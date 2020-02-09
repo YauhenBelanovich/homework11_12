@@ -1,0 +1,9 @@
+com\gmail\yauhen2012\service\impl\UserServiceImpl.class
+com\gmail\yauhen2012\service\model\UserDTO.class
+com\gmail\yauhen2012\service\model\RoleDTO.class
+com\gmail\yauhen2012\service\impl\TableServiceImpl.class
+com\gmail\yauhen2012\service\TableService.class
+com\gmail\yauhen2012\service\impl\RoleServiceImpl.class
+com\gmail\yauhen2012\service\UserService.class
+com\gmail\yauhen2012\service\RoleService.class
+com\gmail\yauhen2012\service\model\AddUserDTO.class

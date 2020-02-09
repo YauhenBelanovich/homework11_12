@@ -1,0 +1,17 @@
+com\gmail\yauhen2012\repository\RoleRepository.class
+com\gmail\yauhen2012\util\PropertyUtil.class
+com\gmail\yauhen2012\repository\ConnectionRepository.class
+com\gmail\yauhen2012\repository\constant\ConnectionConstant.class
+com\gmail\yauhen2012\repository\enums\CreateRolesEnum.class
+com\gmail\yauhen2012\repository\enums\DropTableEnum.class
+com\gmail\yauhen2012\repository\enums\CreateTableEnum.class
+com\gmail\yauhen2012\repository\impl\ConnectionRepositoryImpl.class
+com\gmail\yauhen2012\repository\model\Role.class
+com\gmail\yauhen2012\repository\impl\GeneralRepositoryImpl.class
+com\gmail\yauhen2012\repository\impl\TableRepositoryImpl.class
+com\gmail\yauhen2012\repository\GeneralRepository.class
+com\gmail\yauhen2012\repository\impl\RoleRepositoryImpl.class
+com\gmail\yauhen2012\repository\model\User.class
+com\gmail\yauhen2012\repository\UserRepository.class
+com\gmail\yauhen2012\repository\TableRepository.class
+com\gmail\yauhen2012\repository\impl\UserRepositoryImpl.class
