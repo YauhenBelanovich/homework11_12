@@ -1,0 +1,16 @@
+h2 {font-size: 40px;}
+.myTable {width:100%; margin-bottom: 30px; font-family: arial, sans-serif;}
+.myTable td {text-align: center;}
+.myTable tr th {background: #000; color: #fff; padding: 15px; font-weight: bold;}
+.myTable tr:nth-child(odd) td {background: #848482; color: #fff; padding: 5px;}
+.myTable tr:nth-child(even) td {background: #fff; padding: 5px;}
+.addLink {font-size: 22px; text-decoration: none; color: #0366d6; font-family: arial, sans-serif;}
+.addLink:hover {text-decoration: underline;}
+.button {border: 1px solid #333; display: inline-block; padding: 5px 15px; text-decoration: none; color: #000;}
+.button:hover {box-shadow: 0 0 5px rgba(0,0,0,0.3); background: linear-gradient(to bottom, #fcfff4, #e9e9ce); color: #a00;}
+.w3-blue-grey,.w3-hover-blue-grey:hover,.w3-blue-gray,.w3-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
+.w3-opacity,.w3-hover-opacity:hover{opacity:0.60}.w3-opacity-off,.w3-hover-opacity-off:hover{opacity:1}
+.w3-opacity-max{opacity:0.25}.w3-opacity-min{opacity:0.75}
+.w3-right-align{text-align:right!important}
